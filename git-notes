@@ -1,0 +1,46 @@
+Installation
+1. git --version # Check if Git is installed and see its version
+
+Configure global Git settings
+1. git config --global user.name "John Doe"       # Your full name
+2. git config --global user.email "john.doe@example.com" # Your email address
+
+Git Init
+1. mkdir my_new_project      # Create a new folder
+2. cd my_new_project         # Go into the folder
+3. git init                  # Initialize Git in this folder
+
+Git Clone
+1. git clone https://github.com/user/project-name.git
+
+Git Status
+1. git status # Always run this to see your current Git situation!
+
+Git Add
+1. git add my_amazing_feature.js # Stage a specific file
+2. git add .                     # Stage ALL changes in the current folder (be careful!)
+
+Git Commit
+1. git commit -m "Add header section to homepage"
+# The -m stands for 'message'. Write a clear, short message!
+
+Git Log
+1. git log            # Full, detailed history
+2. git log --oneline  # Compact, one-line summary for each commit
+3. git log --graph    # Shows branches and merges visually (super helpful!)
+
+Git Branch
+1. git branch new-feature       # Create a brand new branch named 'new-feature'
+2. git branch                   # List all branches you have (the one with '*' is your current branch)
+3. git branch -d old-branch     # Delete a branch you've already merged (clean up!)
+4. git branch -D old-branch     # Force delete a branch (use with caution, even if not merged)
+
+Git Checkout
+1. git checkout new-feature    # Switch to the 'new-feature' branch
+2. git checkout -b another-feature # Create a new branch AND switch to it in one go!
+
+Git Merge
+1. git checkout main           # First, go to the branch you want to merge *into*
+2. git merge new-feature       # Now, merge changes from 'new-feature' into 'main'
+
+git rebase` (Advanced - For Later!): This is another way to combine changes, but it rewrites your project's history to make it look cleaner and more linear. While powerful, it can be tricky for beginners and can cause issues if used on branches that others are actively working on. It's often best to stick with `git merge` until you're more comfortable.
