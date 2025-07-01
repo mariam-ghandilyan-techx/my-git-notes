@@ -1,0 +1,13 @@
+GitHub
+
+• GitHub is a code hosting platform that uses Git for version control, allowing developers to manage and track changes to their code.
+
+• It enables collaboration, allowing multiple developers to work on the same project by contributing via pull requests, branches, and forks.
+
+• Developers use GitHub to store code, share open-source projects, and maintain project history, including who changed what and when.
+
+• It supports issue tracking, project management, and documentation through tools like Issues, Projects, and Wikis.
+
+• GitHub Actions allows automation of workflows like testing, building, and deployment.
+
+• It’s commonly used in both personal and professional projects, from small hobby apps to large enterprise software.
